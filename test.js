@@ -1,4 +1,4 @@
 console.log("Pritesh")
 
 console.log(5+6)
-console.log("abc" + 5)
+console.log("abc" + 7)
