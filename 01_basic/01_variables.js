@@ -2,6 +2,7 @@ const accountId=3636467
 let accountName="Pritesh"
 var accountAge=23
 accountCity="Rajkot"
+let accountState;
 
 // now changing the value of each variables
 
@@ -12,7 +13,7 @@ console.log(accountId);
 accountName="Om"
 console.log(accountName);
 
-//Problem using var is when  when we use same name variable in another file or block it will change the value of first one
+//Problem using var is when  when we use same name variable in another file or block or functional scope it will change the value of first one
 accountAge=24
 console.log(accountAge);
 
@@ -21,7 +22,7 @@ console.log(accountCity);
 
 
 // using console.table multiple variable are printed at same time and give table form
-console.table([accountId,accountName,accountAge,accountCity])
+console.table([accountId,accountName,accountAge,accountCity,accountState])
 
 
 
