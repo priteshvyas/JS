@@ -79,7 +79,32 @@ console.log(data[2].email);
 
 
 
+//destructuring of object:
+const course = {
+    coursename: "javaScript",
+    price: "999",
+    courseInstructor: "pritesh"
+};
+//It makes code cleaner, especially when you work with large objects (like API responses).
+const { courseInstructor } = course;
+console.log(courseInstructor); 
 
+const { courseInstructor: instructor } = course;
+console.log(instructor); 
+
+
+//JSON FORMATE OBJECT
+//  {
+//    "name": "hitesh",
+//       "coursename": "js in hindi",
+//     "price": "free"
+//  }
+
+[
+    {},
+    {},
+    {}
+]
 
 
 
